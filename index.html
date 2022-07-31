@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliding puzzle</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="text.js"></script>
+</head>
+<body onload="Reset()">
+    <center>
+        <br />
+        <table cellspacing="4" id="tbl">
+        </table>
+        <br />
+        <br />
+        <br />
+        <label for="input">Board size</label>
+        <input type="number" name="tamanho" id="cols" value="3" size="3" style="text-align: center; width: 50px;" />
+        <input type="button" value="Start" onclick="Reset()" />
+        <br />
+        <br />
+        Tentativas: <span id="tentativas">0</span>
+        <p id="Mensagem"></p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </center>
+</html>
